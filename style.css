@@ -1,0 +1,131 @@
+:root {
+  --very_dark_blue: hsl(212, 21%, 14%);
+  --dark_grayish_blue: hsl(228, 12%, 48%);
+  --white: hsl(0, 0%, 100%);
+  --cream: hsl(30, 38%, 92%);
+  --dark_cyan: hsl(158, 36%, 37%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  background-color: var(--cream);
+}
+
+#container {
+  color: var(--dark_grayish_blue);
+  background-color: var(--white);
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 100%;
+  height: 85vh;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+#top-section {
+  background-image: url(./images/image-product-mobile.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 40%;
+  width: 100%;
+}
+
+#bottom-section {
+  width: 100%;
+  height: 60%;
+  padding: 25px;
+}
+
+#bottom-section h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  color: var(--very_dark_blue);
+  font-weight: 700;
+  font-family: "Fraunces";
+}
+
+#bottom-section p {
+  font-size: 20px;
+  line-height: 1.6rem;
+}
+
+#bottom-section span {
+  font-size: 40px;
+  color: var(--dark_cyan);
+  font-weight: 700;
+}
+
+#bottom-section__price p {
+  position: relative;
+  display: inline-block;
+  text-decoration: line-through;
+  vertical-align: middle;
+  font-size: 14px;
+  margin-left: 15px;
+  top: -10px;
+}
+
+#bottom-section button {
+  padding: 15px;
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+  border-radius: 10px;
+  background-color: var(--dark_cyan);
+  color: #fff;
+  width: 100%;
+}
+
+button img {
+  margin-right: 10px;
+  height: 20px;
+}
+
+#litle-title {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 10px 0;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+@media (min-width: 750px) {
+  #container {
+    margin: 200px auto;
+    flex-direction: row;
+    width: 800px;
+    height: 550px;
+  }
+
+  #top-section {
+    background-image: url("./images/image-product-desktop.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 50%;
+  }
+
+  #bottom-section {
+    width: 50%;
+    height: 100%;
+    padding: 50px;
+  }
+
+  #bottom-section h1 {
+    margin: 2px 0;
+  }
+
+  #bottom-section__price {
+    margin-bottom: 20px;
+  }
+
+  #litle-title {
+    margin: auto;
+  }
+}
