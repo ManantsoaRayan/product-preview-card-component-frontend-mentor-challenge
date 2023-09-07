@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/ManantsoaRayan/interactive-rating-component.git]
-- Live Site URL: [https://manantsoarayan.github.io/interactive-rating-component/]
+- Solution URL: [https://github.com/ManantsoaRayan/product-preview-card-component-frontend-mentor-challenge.git](https://github.com/ManantsoaRayan/product-preview-card-component-frontend-mentor-challenge.git)
+- Live Site URL: [https://manantsoarayan.github.io/product-preview-card-component-frontend-mentor-challenge/](https://manantsoarayan.github.io/product-preview-card-component-frontend-mentor-challenge/)
 
 ## My process
 
